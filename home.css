@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(246, 246, 249);
+
+    overflow: auto;
+    height: 100vh;
+    margin: 0;
+    
+    position:relative
+}
+
+ nav {
+    position: relative;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    padding-left: 23px;
+    padding-right: 23px;
+    justify-content: space-between;
+    align-self: center;
+    background-color: black;
+    border-bottom: 3px solid rgb(128, 255, 0);
+ }
+
+ .dropdown-content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 30vh;
+    width: 0;
+    background: rgb(0,0,0);
+    transition: 0.5s;
+    z-index: 5;
+    overflow-x: hidden;
+    box-shadow: 2px 1px 3px white;
+ }
+
+ .dropdown-content a:not(.closebtn) {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+    padding-top: 15px;
+    font-size: 22px;
+    margin: 32px 8px 8px 0px;
+    color: white;  
+    padding-top: 15px;
+ }
+
+ .dropdown-content a:not(.closebtn):hover {
+    background-color: white;
+    color: black;
+ }
+
+
+ #icon {
+    color: white;
+    font-size: 25px;
+    padding: 10px 5px 0 0;
+    cursor: pointer;
+ }
+
+ .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 3px;
+    margin-right: 28px;
+    font-size: 50px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 700;
+    
+ }
+ .header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    width: 90%;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    border: 4px solid greenyellow;
+    outline: 4px solid gold;
+    outline-offset: 4px;
+ }
+
+ .header p {
+    font-family: "Sofia", sans-serif;
+ }
+
+ .text-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    color: black;
+ }
+
+ .text-container h2 {
+    font-size: 35px;
+    font-family: "Cinzel, serif";
+    text-align: center;
+    font-weight: bolder;
+ }
+
+ .text-container p {
+    font-family: 'Fauna One', serif;
+    text-indent: 20px;
+ }
+
+ .text-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    color: white;
+ }
+
+ footer {
+    background-color: black;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 45px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    color: white;
+ }

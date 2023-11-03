@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.content {
+    width: 700px;
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(246, 249, 251);
+    margin-bottom: 20px;
+}
+
+.content > img {
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 43px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 21px;
+    color: rgb(20, 6, 6);
+}
+
+i {
+    font-size: 34px;
+    margin: 8px;
+}
+
+i:hover {
+    opacity: 0.7;
+}
